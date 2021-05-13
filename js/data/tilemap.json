@@ -1,0 +1,64 @@
+{
+    "platforms": [
+        {
+            "x":0,
+            "y":550,
+            "sprite": "cakeHalfMid"
+        },
+        {
+            "x":70,
+            "y":550,
+            "sprite": "cakeHalfMid"
+        },
+        {
+            "x":140,
+            "y":550,
+            "sprite": "cakeHalfMid"
+        },
+        {
+            "x":210,
+            "y":550,
+            "sprite": "cakeHalfMid"
+        },
+        {
+            "x":280,
+            "y":550,
+            "sprite": "cakeHalfMid"
+        },
+        {
+            "x":350,
+            "y":550,
+            "sprite": "cakeHalfMid"
+        },
+        {
+            "x":420,
+            "y":550,
+            "sprite": "cakeHalfMid"
+        },
+        {
+            "x":490,
+            "y":550,
+            "sprite": "cakeHalfMid"
+        },
+        {
+            "x":560,
+            "y":550,
+            "sprite": "cakeHalfMid"
+        },
+        {
+            "x":630,
+            "y":550,
+            "sprite": "cakeHalfMid"
+        },
+        {
+            "x":700,
+            "y":550,
+            "sprite": "cakeHalfMid"
+        },
+        {
+            "x":770,
+            "y":550,
+            "sprite": "cakeHalfMid"
+        }
+    ]
+}

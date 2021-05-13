@@ -1,0 +1,34 @@
+{
+    "oleadas": [
+        {
+            "enemigos": 4,
+            "color":["red"],
+            "oleadas": 4,
+            "time": 8
+        },
+        {
+            "enemigos": 8,
+            "color":["red", "yellow"],
+            "oleadas": 4,
+            "time": 6
+        },
+        {
+            "enemigos": 16,
+            "color":["red", "yellow", "fly"],
+            "oleadas": 4,
+            "time": 4
+        },
+        {
+            "enemigos": 32,
+            "color":["red", "yellow", "fly", "brown"],
+            "oleadas": 4,
+            "time": 3
+        },
+        {
+            "enemigos": 64,
+            "color":["red", "yellow", "fly", "brown", "beige"],
+            "oleadas": 4,
+            "time": 2
+        }
+    ]
+}
