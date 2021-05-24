@@ -6,6 +6,13 @@ Preload.prototype = {
 		this.game.scale.pageAlignHorizontally = true;
 		this.game.scale.pageAlignVertically = true;
 
+        this.firebaseConfig = {
+            authDomain: "fireinferndmoviles.firebaseapp.com",
+            databaseURL: "https://fireinferndmoviles-default-rtdb.firebaseio.com/",
+            projectId: "fireinferndmoviles",
+        }
+        firebase.initializeApp(this.firebaseConfig);
+
         this.game.load.image("background", "./assets/bg_layer4.png");
         this.game.load.image("yellow", "./assets/yellow/flyMan_fly.png");
         this.game.load.image("red", "./assets/red/spikeMan_jump.png");
