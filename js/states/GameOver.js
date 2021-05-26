@@ -22,7 +22,7 @@ GameOver.prototype = {
     addScore(){
         let date = Date.now();
         let id = this.game.rnd.integerInRange(1000,9000);
-        this.database.ref(id.toString(16)).set({
+        this.database.ref("/parcial/" + id.toString(16)).set({
             created_at: date,
             score: this.game.finalScore,
             user_id: id.toString(16)

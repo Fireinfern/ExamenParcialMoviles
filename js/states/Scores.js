@@ -5,12 +5,12 @@ Scores.prototype = {
         
         this.database = firebase.database();
         
-        this.test = this.game.add.text(0,this.game.height - 50, 'Test', {font: '20px sans-serif'})
+        this.test = this.game.add.text(0,this.game.height - 50, '<= Back', {font: '20px sans-serif'})
         this.test.addColor('#ffffff', 0);
         this.test.inputEnabled = true;
         this.test.events.onInputDown.add(this.backToMenu, this);
         
-        this.database.ref().get().then(res => {
+        this.database.ref("/parcial").get().then(res => {
             let val = res.val();
             let properties = Object.keys(val);
             let arr = [];
